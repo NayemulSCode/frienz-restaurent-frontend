@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name":"Eggs Benedict",
+        "category":"breakfast",
+        "img":"https://i.postimg.cc/25XQ91DL/breakfast1.png",
+        "price":"500",
+        "description":"this is good meal"
+    },
+    {
+        "id": 2,
+        "name":"Bread Chicken",
+        "category":"breakfast",
+        "img":"https://i.postimg.cc/FHwFPv6s/breakfast3.png",
+        "price":"500",
+        "description":"this is good meal"
+    },
+    {
+        "id": 3,
+        "name":"Bagel and Cream Cheese",
+        "category":"breakfast",
+        "img":"https://i.postimg.cc/HnnfDccG/breakfast4.png",
+        "price":"500",
+        "description":"this is good meal"
+    }
+]
