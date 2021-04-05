@@ -12,15 +12,39 @@
         "name":"Bread Chicken",
         "category":"breakfast",
         "img":"https://i.postimg.cc/FHwFPv6s/breakfast3.png",
-        "price":"500",
-        "description":"this is good meal"
+        "price":"390",
+        "description":"Chicken is best for your body"
     },
     {
         "id": 3,
         "name":"Bagel and Cream Cheese",
         "category":"breakfast",
         "img":"https://i.postimg.cc/HnnfDccG/breakfast4.png",
-        "price":"500",
-        "description":"this is good meal"
+        "price":"440",
+        "description":"Low Calories ang get more Energy"
+    },
+    {
+        "id": 4,
+        "name":"Baked Chicken",
+        "category":"dinner",
+        "img":"https://i.postimg.cc/KYNthDHR/dinner1.png",
+        "price":"440",
+        "description":"Low Calories ang get more Energy"
+    },
+    {
+        "id": 5,
+        "name":"Lemony Salmon Piccata",
+        "category":"dinner",
+        "img":"https://i.postimg.cc/k4GR33Sp/dinner2.png",
+        "price":"440",
+        "description":"Low Calories ang get more Energy"
+    },
+    {
+        "id": 6,
+        "name":"Pork Tenderloin with Quinoa Pilax",
+        "category":"dinner",
+        "img":"https://i.postimg.cc/xjkgMBZ5/dinner5.png",
+        "price":"440",
+        "description":"Low Calories ang get more Energy"
     }
 ]

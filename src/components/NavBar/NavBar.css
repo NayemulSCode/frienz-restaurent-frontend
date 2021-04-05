@@ -1,0 +1,34 @@
+.nav{
+    display: flex;
+}
+.nav__header{
+    width: 20%;
+}
+.nav__logo{
+    width: 100px;
+    padding: 10px;
+    margin-left: 30px;
+}
+.nav__link {
+    width: 80%;
+}
+.nav__link ul{
+    display: flex;
+    justify-content:flex-end;
+}
+.nav__link ul li{
+    list-style: none;
+    margin-right: 30px;
+
+}
+.nav__link ul a{
+    color: black;
+    font-size: 18px;
+    padding: 8px 18px;
+}
+.nav__link ul a:hover{
+    color: white;
+    background-color: firebrick;
+    border-radius: 20px;
+}
+

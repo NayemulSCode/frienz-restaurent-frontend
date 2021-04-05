@@ -1,0 +1,57 @@
+.homeContainer{
+    max-width: 1200px;
+    margin: 0px 70px;
+}
+#mealsSection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 1rem;
+    grid-column-gap: 2rem;
+    text-align: center;
+}
+/* breakFirst component */
+.meal__image{
+    width: 80%;
+}
+.meal{
+    display: center;
+    line-height: .6rem;
+    padding: 20px;
+    border-radius: 5px;
+}
+.meal:hover{
+    display: center;
+    line-height: .6rem;
+    box-shadow: 1px 1px 5px gray;
+    padding: 20px;
+    border-radius: 5px;
+    /* background: gainsboro; */
+}
+.meal__desMore{
+    background-color:gray;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+.meal__desMore:hover{
+    background-color:rgb(228, 219, 219);
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
+.meal__desc{
+    color: gray;
+    font-size: 12px;
+}
+.meal__price{
+    font-weight: bold;
+}
+.meal__priceOrder{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
