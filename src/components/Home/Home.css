@@ -15,13 +15,10 @@
 }
 .meal{
     display: center;
-    line-height: .6rem;
     padding: 20px;
     border-radius: 5px;
 }
 .meal:hover{
-    display: center;
-    line-height: .6rem;
     box-shadow: 1px 1px 5px gray;
     padding: 20px;
     border-radius: 5px;

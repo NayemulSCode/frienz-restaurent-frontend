@@ -5,6 +5,7 @@ import Category from '../Category/Category';
 import './Home.css'
 
 const allCategories = ['all', ...new Set(fakeData.map(item => item.category))]
+console.log(allCategories, new Set);
 const Home = () => {
     const [meals, setMeals] = useState(fakeData);
     // category
