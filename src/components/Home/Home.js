@@ -2,10 +2,10 @@ import React, { useEffect, useState } from 'react';
 import fakeData from '../../fakeData.json'
 import BreakFirst from '../BreakFirst/BreakFirst';
 import Category from '../Category/Category';
+import Footer from '../Footer/Footer';
 import './Home.css'
 
 const allCategories = ['all', ...new Set(fakeData.map(item => item.category))]
-console.log(allCategories, new Set);
 const Home = () => {
     const [meals, setMeals] = useState(fakeData);
     // category
@@ -19,13 +19,17 @@ const Home = () => {
         setMeals(newItems)
     }
     return (
-        <div className="homeContainer">
-            <Category category= {categories} filterItems={filterItem} />
-            <section id="mealsSection">
-                {
-                    meals.map( meal => <BreakFirst key={meal.id} meal = {meal} />)
-                }
-            </section>
+        <div >
+            <main className="homeContainer">
+                <Category category= {categories} filterItems={filterItem} />
+                <section id="mealsSection">
+                    {
+                        meals.map( meal => <BreakFirst key={meal.id} meal = {meal} />)
+                    }
+                </section>
+            </main>
+            
+            <Footer />
         </div>
     );
 };
