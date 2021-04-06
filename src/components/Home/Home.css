@@ -55,3 +55,34 @@
     justify-content: space-between;
     padding: 0 30px;
 }
+/* category component */
+.category__main{
+    text-align: center;
+}
+.category__button{
+    text-align : center;
+    background-color: transparent;
+    margin: 15px 15px 15px 0px;
+    border: none;
+    font-size:22px;
+    text-transform: capitalize;
+    
+}
+.category__button:hover{
+    color: #ff0000;
+    position: relative;
+}
+.category__button:focus{
+    outline: none;
+}
+.category__button:hover::after{
+    content: "";
+    width: 100%;
+    height: 3px;
+    background: #f00;
+    display: inline-block;
+    position: absolute;
+    bottom: -4px;
+    left: 50%;
+    transform: translateX(-50%);
+}

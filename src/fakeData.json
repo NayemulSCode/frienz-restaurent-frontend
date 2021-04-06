@@ -46,5 +46,29 @@
         "img":"https://i.postimg.cc/xjkgMBZ5/dinner5.png",
         "price":"440",
         "description":"Low Calories ang get more Energy"
+    },
+    {
+        "id": 7,
+        "name":"Beef Stick",
+        "category":"lunch",
+        "img":"https://i.postimg.cc/9F6SNZS6/lunch1.png",
+        "price":"765",
+        "description":"beef stick with salad"
+    },
+    {
+        "id": 8,
+        "name":"Honey-Soy-Glazed salmon with pappers",
+        "category":"lunch",
+        "img":"https://i.postimg.cc/sgPn685W/lunch2.png",
+        "price":"555",
+        "description":"beef stick with salad"
+    },
+    {
+        "id": 9,
+        "name":"Tarzan Mahmudul",
+        "category":"lunch",
+        "img":"https://i.postimg.cc/7Y3cdfkb/lunch3.png",
+        "price":"405",
+        "description":"beef stick with salad"
     }
 ]
